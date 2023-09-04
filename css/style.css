@@ -1,0 +1,43 @@
+@keyframes color {
+    0%   { background: #a864d6; }
+    20%  { background: #6a99e4; }
+    40%  { background: #e36c94; }
+    60%  { background: #ead880; }
+    80%  { background: #84de86; }
+    100% { background: #716cf1; }
+}
+
+.body{
+    background: rgb(85,103,199);
+background: radial-gradient(circle, rgba(85,103,199,1) 0%, rgba(13,33,57,1) 100%);
+}
+
+.h1{
+    font: size 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.p{
+    color: white;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    padding: 10px 16px;
+    background-color: rgb(95, 95, 191);
+    border-radius:10px;
+    color: white;
+    animation: color 9s infinite linear;
+}
+
+.input{
+    padding: 12px 12px;
+    
+    
+}
